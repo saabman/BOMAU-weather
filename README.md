@@ -1,5 +1,7 @@
-# Module: WB-weather
-The `WB-weather` module was designed to complement the `WallberryTheme` module and displays the current weather and forecast.
+# Module: BOMAU-weather
+The `BOMAU-weather` module is a modification to the WB-weather module which was  designed  to complement the `WallberryTheme` module and displays the current weather and forecast. 
+
+This started out as just an attempt to utilize the Australian Bureau of Meterology data in place of DarkSky data but due to the number of changes required I have spun it out into a modudle on its own. The Wallberry Theme is available from https://github.com/delightedCrow/WallberryTheme 
 
 ## Using the module
 
@@ -7,13 +9,13 @@ To use this module, add it to the modules array in the `config/config.js` file:
 ````javascript
 modules: [
 	{
-		module: "WallberryTheme/WB-weather",
+		module: "BOMAU-weather",
 		position: "bottom_bar",  // Highly suggested location
 		config: {
 			// See "Configuration options" for more information.
-			darkSkyApiKey: "Your DarkSky API key",
-			latitude:   47.603230,
-			longitude: -122.330276
+			forecastSource: "link to source data",
+			stationID: "BOM StationID",
+			
 		}
 	}
 ]
