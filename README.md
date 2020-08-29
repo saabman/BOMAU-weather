@@ -28,8 +28,8 @@ The following properties can be configured:
 
 | Option                      | Type    | Description
 | ----------------------------|---------| -----------
-| `forecastSource`            | String  | forcast XML file location
-| `stationID`                 | String  | Station ID for the required location 
+| `forecastSource`            | String  | forcast XML file location. <br><br>
+| `stationID`                 | String  | Station ID for the required location. <br><br> 
 | `roundTemp`                 | Boolean | Round temperature value to nearest integer. <br><br> **Possible values:** `true` (round to integer) or `false` (display exact value with decimal point) <br> **Default value:** `true`
 | `language`                  | String  | What language to use. [Full language list available at DarkSky API docs (language parameter)](https://darksky.net/dev/docs#forecast-request). <br><br> **Possible values:** `en`, `nl`, `ru`, etc...<br> **Default value:** uses value of _config.language_
 | `daysToForecast`            | Number  | How many days to forecast in weekly forecast. <br><br> **Possible values:** `0` - `8` <br> **Default value:** `4`
