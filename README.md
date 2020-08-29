@@ -34,3 +34,9 @@ The following properties can be configured:
 | `language`                  | String  | What language to use. [Full language list available at DarkSky API docs (language parameter)](https://darksky.net/dev/docs#forecast-request). <br><br> **Possible values:** `en`, `nl`, `ru`, etc...<br> **Default value:** uses value of _config.language_
 | `daysToForecast`            | Number  | How many days to forecast in weekly forecast. <br><br> **Possible values:** `0` - `8` <br> **Default value:** `4`
 | `updateInterval`            | Number  | How often to fetch new weather data. (Milliseconds) <br><br> **Default value:** `600000` (10 minutes)
+
+
+Getting the details for the forecast location is a bit of a complicated affair.
+
+From www.bom.gov.au select the detailed 7 day forecast and scroll to the bottom of the screen where you will find the station id number 
+
